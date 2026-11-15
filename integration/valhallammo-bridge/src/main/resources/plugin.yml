@@ -1,0 +1,7 @@
+name: CnKValhallaBridge
+version: '1.0.0'
+main: io.github.schisophrenic.cnk.valhalla.CropAndKettleValhallaBridge
+api-version: '1.21'
+load: POSTWORLD
+depend: [ValhallaMMO]
+description: Adds ValhallaMMO skill experience for Crop & Kettle activities.

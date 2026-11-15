@@ -1,0 +1,26 @@
+# The initial stat readings are baselines; past progress is not rewarded retroactively.
+poll-interval-ticks: 20
+max-events-per-poll: 256
+
+# ValhallaMMO has no built-in COOKING skill. Repoint these to a custom skill if desired.
+rewards:
+  crops_harvested:
+    enabled: true
+    skill: FARMING
+    experience: 48.0
+  food_cooked:
+    enabled: true
+    skill: ALCHEMY
+    experience: 48.0
+  food_cut:
+    enabled: true
+    skill: ALCHEMY
+    experience: 8.0
+  food_mixed:
+    enabled: true
+    skill: ALCHEMY
+    experience: 24.0
+  drinks_bottled:
+    enabled: true
+    skill: ALCHEMY
+    experience: 16.0
